@@ -409,7 +409,7 @@ header nav.right ul li img {
 }
 #products section.container div.content.last div.bottom h1 {
     width: 100%;
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 800;
 }
 #products section.container div.content.last div.bottom form {
@@ -420,7 +420,7 @@ header nav.right ul li img {
     div.bottom
     form
     input[type="email"] {
-    padding: 14px 10px;
+    padding: 14px 8px;
     border-radius: 5px;
     background: #dedddc;
     margin-right: 6px;
@@ -477,4 +477,109 @@ header nav.right ul li img {
     width: 94%;
     font-size: 13px;
     font-weight: 600;
+}
+footer {
+    background: #dedddc;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    /* background-image: url(../images/pexels-scandinavian-biolabs-8478970.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleX(-1); */
+}
+footer div.image {
+    position: relative;
+    width: 43%;
+}
+footer div.image img {
+    transform: scaleX(-1);
+    width: 44%;
+    height: 279px;
+    display: block;
+    position: absolute;
+    top: -209px;
+    /* right: 171px; */
+    left: 1093px;
+}
+footer section.wrapper {
+}
+footer section.container {
+    display: flex;
+    justify-content: space-between;
+}
+footer section.container div.left {
+    width: 20%;
+}
+footer section.container div.left div.top {
+    text-align: center;
+}
+footer section.container div.left div.top h3 {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+footer section.container div.left div.top ul {
+}
+footer section.container div.left div.top ul li {
+    margin-bottom: 10px;
+}
+footer section.container div.left div.top ul li a {
+    font-size: 12px;
+    font-weight: 500;
+}
+footer section.container div.left div.social {
+}
+footer section.container div.left div.social ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+footer section.container div.left div.social ul li {
+    margin-right: 10px;
+    padding: 4px 2px;
+    justify-content: center;
+    background: orange;
+    align-items: center;
+    border-radius: 6px;
+}
+footer section.container div.left div.social ul li:last-child {
+    margin-right: 0;
+}
+footer section.container div.left div.social ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert(1);
+}
+footer section.container div.left div.social ul li a img {
+    width: 80%;
+    display: block;
+}
+footer section.container div.right {
+    display: flex;
+    width: 71%;
+}
+
+footer section.container div.right div.item {
+    width: 30%;
+}
+footer section.container div.right div.item:first-child {
+    margin-top: 24px;
+}
+footer section.container div.right div.item:nth-child(2) {
+}
+footer section.container div.right div.item:last-child {
+    margin-top: 24px;
+}
+footer section.container div.right div.item h3 {
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+footer section.container div.right div.item ul {
+}
+footer section.container div.right div.item ul li {
+    margin-bottom: 14px;
+}
+footer section.container div.right div.item ul li a {
+    font-size: 14px;
 }

@@ -19,7 +19,7 @@ del {
     text-decoration: line-through;
 }
 body {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-family: "Inter-Regular";
     font-size: 17px;
     color: #000;
     overflow-x: hidden;
@@ -29,7 +29,7 @@ body {
 input,
 textarea,
 select {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-family: "Inter-Regular";
     font-weight: 500;
 }
 
@@ -46,7 +46,7 @@ a {
 p {
     line-height: 1.6em;
     font-size: 16px;
-    font-family: "Inter", Arial;
+    font-family: "Inter-Regular";
     font-weight: 500;
     color: #000;
 }
@@ -202,7 +202,6 @@ header nav.right ul li img {
     display: block;
 }
 #spotlight {
-    /* padding: 100px 0; */
 }
 #spotlight section.container {
     display: flex;
@@ -235,18 +234,200 @@ header nav.right ul li img {
     font-family: Inria Serif;
 }
 #spotlight div.right p {
-    width: 74%;
+    width: 76%;
     font-size: 14px;
-    line-height: 1em;
+    line-height: 1.3em;
     margin-bottom: 50px;
+    font-family: Inter-Regular;
+    font-weight: 500;
 }
 #spotlight div.right a.button.one {
     background: #fe8e0b;
-    padding: 12px 24px;
+    padding: 12px 44px;
+    border-radius: 12px;
+    border-bottom-right-radius: 85px;
+    font-size: 12px;
+    margin-right: 9px;
     color: #fff;
 }
 #spotlight div.right a.button.two {
     background: #3a2929;
-    padding: 12px 24px;
+    padding: 12px 36px;
+    border-radius: 12px;
+    border-top-left-radius: 122px;
+    font-size: 12px;
     color: #fff;
+}
+#companies {
+    padding: 24px;
+    background: #dedddc;
+}
+#companies section.wrapper {
+}
+#companies ul {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+#companies ul li {
+}
+#companies ul li:last-child {
+    margin-right: 0;
+}
+#companies ul li a {
+}
+#companies ul li a img {
+    width: 58%;
+    display: block;
+}
+#about {
+    padding: 70px;
+}
+#about section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dedddc;
+    border-radius: 12px;
+}
+#about div.left {
+    width: 49%;
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-bottom: 120px;
+}
+#about div.left h2 {
+    margin-bottom: 14px;
+    font-size: 50px;
+    font-weight: 900;
+}
+#about div.left p.paragraph_one {
+    width: 121%;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+#about div.left p.paragraph_two {
+    width: 121%;
+    font-size: 14px;
+    margin-bottom: 22px;
+    font-weight: 500px;
+}
+#about div.left a.button {
+    background: black;
+    color: #fff;
+    padding: 12px 39px;
+    font-size: 12px;
+    border-radius: 20px;
+    border-bottom-right-radius: 130px;
+}
+#about div.right {
+    width: 32%;
+}
+#about div.right img {
+    width: 100%;
+    display: block;
+}
+#products {
+}
+#products section.wrapper {
+}
+#products section.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+#products section.container div.image_container {
+    width: 44%;
+}
+#products section.container div.image_container img {
+    width: 100%;
+    display: block;
+}
+#products section.container div.content {
+    width: 53%;
+}
+#products section.container div.content div.top {
+    margin-bottom: 106px;
+    width: 98%;
+}
+#products section.container div.content div.top img {
+    width: 100%;
+    display: block;
+}
+#products section.container div.content div.bottom {
+}
+#products section.container div.content div.bottom h1 {
+    width: 65%;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#products section.container div.content div.bottom p.para1 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 100%;
+}
+#products section.container div.content div.bottom p.para2 {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#products section.container div.content div.bottom a.button {
+    background: black;
+    color: #fff;
+    padding: 12px 42px;
+    border-radius: 16px;
+    font-size: 12px;
+    border-bottom-right-radius: 139px;
+}
+#products section.container div.content div.bottom.middle {
+}
+#products section.container div.content div.bottom.middle h1 {
+    font-size: 46px;
+    width: 44%;
+    font-weight: 700;
+}
+#products section.container div.content div.bottom.middle p.para1 {
+}
+#products section.container div.content div.bottom.middle p.para2 {
+}
+#products section.container div.content div.bottom.middle a.button {
+}
+#products section.container div.content.last {
+}
+#products section.container div.content.last div.top {
+    margin-bottom: 173px;
+}
+#products section.container div.content.last div.top img {
+    width: 100%;
+    display: block;
+}
+#products section.container div.content.last div.bottom {
+    padding-left: 100px;
+}
+#products section.container div.content.last div.bottom h1 {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 800;
+}
+#products section.container div.content.last div.bottom form {
+}
+#products
+    section.container
+    div.content.last
+    div.bottom
+    form
+    input[type="email"] {
+    padding: 14px 10px;
+    border-radius: 5px;
+    background: #dedddc;
+    margin-right: 6px;
+}
+#products section.container div.content.last div.bottom form button {
+    padding: 15px 24px;
+    background: black;
+    color: #fff;
+    border-radius: 6px;
 }

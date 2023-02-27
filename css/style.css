@@ -250,11 +250,11 @@ header nav.right ul li a img {
     font-weight: 600;
 }
 #spotlight section.container div.right div.spotlight_button {
-    display: flex;
+    /* display: flex;
     align-items: center;
     overflow: hidden;
     -webkit-transform: perspective(300px) rotateX(-25deg);
-    transform-origin: 0%;
+    transform-origin: 0%; */
 }
 #spotlight section.container div.right div.spotlight_button a.button_one {
     color: #fff;
@@ -342,10 +342,8 @@ header nav.right ul li a img {
     border-radius: 12px;
 }
 #about div.left {
-    width: 49%;
-    /* padding-top: 120px; */
-    padding-left: 60px;
-    /* padding-bottom: 120px; */
+    width: 58%;
+    padding: 110px 0 110px 60px;
 }
 #about div.left h2 {
     margin-bottom: 14px;
@@ -353,13 +351,11 @@ header nav.right ul li a img {
     font-weight: 900;
 }
 #about div.left p.paragraph_one {
-    width: 121%;
     margin-bottom: 14px;
     font-size: 14px;
     font-weight: 600;
 }
 #about div.left p.paragraph_two {
-    width: 121%;
     font-size: 14px;
     margin-bottom: 22px;
     font-weight: 600;
@@ -388,7 +384,7 @@ header nav.right ul li a img {
     border-radius: 12px 15px 125px 15px;
 } */
 #about div.right {
-    width: 35%;
+    width: 31%;
 }
 #about div.right img {
     width: 100%;
@@ -542,11 +538,12 @@ header nav.right ul li a img {
 }
 #blog section.container div.bottom ul li div.blog_container {
     width: 100%;
+    height: 212px;
     margin-bottom: 20px;
 }
 #blog section.container div.bottom ul li div.blog_container img {
     width: 100%;
-    height: 212px;
+    height: 100%;
     display: block;
     border-radius: 9px;
 }
@@ -664,22 +661,214 @@ footer div.image img {
     display: block;
 }
 @media all and (max-width: 980px) {
+    #spotlight section.container div.left div.image_container {
+        width: 93%;
+    }
+    #spotlight section.container div.right {
+        margin-top: 62px;
+    }
     #spotlight section.container div.right h2 {
-        font-size: 90px;
+        font-size: 80px;
         width: 82%;
+        margin-bottom: 8px;
     }
     #spotlight section.container div.right p {
         width: 88%;
         font-size: 14px;
+        margin-bottom: 28px;
     }
+
     #companies ul li {
         margin-right: 40px;
     }
     #companies ul li a span.images_container {
-        width: 118px;
+        width: 114px;
         height: 41px;
     }
-    #about div.left p.paragraph_one {
-        width: 130%;
+    #about div.left {
+        width: 52%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #about div.right {
+        width: 36%;
+    }
+    #about div.left h2 {
+        font-size: 40px;
+    }
+    #products section.container div.image_container {
+        width: 52%;
+    }
+    #products section.container div.content {
+        width: 44%;
+    }
+    #products section.container div.content div.top {
+        margin-bottom: 40px;
+        width: 98%;
+    }
+    #products section.container div.content div.bottom h1 {
+        width: 116%;
+        font-size: 38px;
+        margin-bottom: 11px;
+    }
+    #products section.container div.content div.bottom p.para1 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    #products section.container div.content div.bottom p.para2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    #products section.container div.content div.bottom.middle h1 {
+        font-size: 40px;
+        width: 76%;
+    }
+    #products section.container div.content.last div.top {
+        margin-bottom: 81px;
+    }
+    #products section.container div.content.last div.bottom h1 {
+        width: 96%;
+        font-size: 39px;
+    }
+    #products section.container div.content.last div.bottom {
+        padding-left: 20px;
+        display: inline;
+    }
+    #blog {
+        padding: 70px;
+    }
+    #blog div.top h1 {
+        font-size: 42px;
+    }
+    #blog section.container div.bottom ul li div.blog_container {
+        width: 100%;
+        height: 170px;
+    }
+    #blog section.container div.bottom ul li p {
+        width: 100%;
+        font-size: 14px;
+    }
+    footer div.image {
+        width: 24%;
+        height: 277px;
+    }
+}
+@media all and (max-width: 768px) {
+    #spotlight {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    #spotlight section.container div.left {
+        width: 68%;
+    }
+    #spotlight section.container div.left div.image_container {
+        width: 100%;
+    }
+    #spotlight section.container div.right {
+        margin-top: 49px;
+        width: 86%;
+    }
+    #spotlight section.container div.right small {
+        font-size: 12px;
+    }
+    #spotlight section.container div.right h2 {
+        font-size: 62px;
+        width: 67%;
+    }
+    #spotlight section.container div.right p {
+        width: 78%;
+        font-size: 14px;
+        margin-bottom: 28px;
+    }
+    #spotlight section.container div.right div.spotlight_button a.button_one {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    #spotlight section.container div.right div.spotlight_button a.button_two {
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+    #companies ul {
+        flex-wrap: wrap;
+    }
+    #companies ul li {
+        width: 27%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 14px;
+        margin-bottom: 12px;
+    }
+    #companies ul li a span.images_container {
+        width: 148px;
+        height: 42px;
+    }
+    #about div.left {
+        width: 100%;
+        padding: 24px 30px 24px 30px;
+    }
+    #about div.right {
+        display: none;
+    }
+    #products section.container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    #products section.container div.image_container {
+        width: 65%;
+        margin: 0 auto;
+    }
+    #products section.container div.image_container img.three {
+        display: none;
+    }
+    #products section.container div.content {
+        width: 100%;
+    }
+    #products section.container div.content div.top img {
+        display: none;
+    }
+    #products section.container div.content.last {
+        text-align: center;
+    }
+    #products section.container div.content.last div.top img {
+        display: none;
+    }
+    #products section.container div.content.last div.bottom h1 {
+        margin-bottom: 30px;
+    }
+    #blog div.top h1 {
+        font-size: 38px;
+    }
+    #blog section.container div.bottom ul {
+        flex-wrap: wrap;
+    }
+    #blog section.container div.bottom ul li {
+        width: 100%;
+    }
+    #blog section.container div.bottom ul li div.blog_container {
+        height: 310px;
+        margin: 0 auto;
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    #blog section.container div.bottom ul li h3 {
+        font-size: 22px;
+    }
+    #blog section.container div.bottom ul li p {
+        width: 78%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    #blog section.container div.bottom ul li p {
+        margin-bottom: 50px;
+    }
+    footer div.image {
+        display: none;
+    }
+    footer section.container div.left {
+        width: 30%;
+    }
+    footer section.container div.right {
+        width: 62%;
     }
 }

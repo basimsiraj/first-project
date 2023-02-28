@@ -1089,6 +1089,107 @@ footer div.image img {
     }
 }
 @media all and (max-width: 480px) {
+    header {
+        padding: 30px 28px;
+    }
+    header h1.left {
+        width: 34%;
+    }
+    #spotlight {
+        padding: 40px;
+    }
+    #spotlight section.container div.right {
+        padding-top: 0;
+    }
+    #spotlight section.container div.right small {
+        font-size: 11px;
+    }
+    #spotlight section.container div.right h2 {
+        font-size: 53px;
+        width: 100%;
+    }
+    #spotlight section.container div.right p {
+        font-size: 15px;
+        width: 100%;
+    }
+    #spotlight section.container div.right div.spotlight_button a.button_one {
+        font-size: 11px;
+    }
+    #spotlight section.container div.right div.spotlight_button a.button_two {
+        font-size: 11px;
+    }
+    #about {
+        padding: 30px 0;
+    }
+    #about div.left {
+        margin-bottom: 8px;
+    }
+    #about div.left div.about_button {
+        width: 130px;
+        height: 41px;
+    }
+    #products {
+        padding: 40px;
+    }
+    #products section.container {
+        padding: 0;
+    }
+    #products section.container div.image_container {
+        width: 100%;
+    }
+    #products section.container div.content div.bottom h1 {
+        width: 100%;
+        font-size: 29px;
+    }
+    #products section.container div.content div.bottom.middle h1 {
+        font-size: 31px;
+        width: 85%;
+    }
+    #products section.container div.content div.button_box {
+        height: 41px;
+        width: 130px;
+    }
+    #products section.container div.content.last div.bottom h1 {
+        font-size: 33px;
+    }
+    #blog div.top h1 {
+        font-size: 31px;
+    }
+    #blog {
+        padding: 30px;
+    }
+    #blog section.container div.bottom ul li h3 {
+        font-size: 19px;
+    }
+    #blog section.container div.bottom ul li p {
+        font-size: 14px;
+    }
+    footer section.container div.left div.top ul li a {
+        font-size: 13px;
+    }
+    footer section.container div.right div.item ul li a {
+        font-size: 12px;
+    }
 }
 @media all and (max-width: 360px) {
+    #products section.container div.content.last div.bottom h1 {
+        font-size: 28px;
+    }
+    #products
+        section.container
+        div.content.last
+        div.bottom
+        form
+        input[type="email"] {
+        font-size: 13px;
+    }
+    #products section.container div.content.last div.bottom form button {
+        padding: 12px 18px;
+    }
+    #blog div.top h1 {
+        font-size: 29px;
+    }
+    #blog section.container div.bottom ul li div.blog_container {
+        height: 170px;
+    }
 }

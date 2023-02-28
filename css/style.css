@@ -219,7 +219,7 @@ header nav.right ul li a img {
     width: 51%;
 }
 #spotlight section.container div.left div.image_container {
-    width: 78%;
+    width: 87%;
 }
 #spotlight section.container div.left div.image_container img {
     width: 100%;
@@ -384,7 +384,7 @@ header nav.right ul li a img {
     border-radius: 12px 15px 125px 15px;
 } */
 #about div.right {
-    width: 31%;
+    width: 33%;
 }
 #about div.right img {
     width: 100%;
@@ -660,184 +660,275 @@ footer div.image img {
     height: 100%;
     display: block;
 }
-@media all and (max-width: 980px) {
-    #spotlight section.container div.left div.image_container {
-        width: 93%;
-    }
+@media all and (max-width: 1280px) {
     #spotlight section.container div.right {
-        margin-top: 62px;
+        padding-top: 34px;
     }
     #spotlight section.container div.right h2 {
-        font-size: 80px;
-        width: 82%;
-        margin-bottom: 8px;
-    }
-    #spotlight section.container div.right p {
-        width: 88%;
-        font-size: 14px;
-        margin-bottom: 28px;
-    }
-
-    #companies ul li {
-        margin-right: 40px;
+        font-size: 85px;
     }
     #companies ul li a span.images_container {
-        width: 114px;
-        height: 41px;
+        width: 110px;
+        height: 42px;
     }
     #about div.left {
-        width: 52%;
-        padding-top: 0;
-        padding-bottom: 0;
+        width: 49%;
+        padding: 43px 0 71px 60px;
     }
     #about div.right {
-        width: 36%;
-    }
-    #about div.left h2 {
-        font-size: 40px;
+        width: 38%;
     }
     #products section.container div.image_container {
-        width: 52%;
+        width: 50%;
     }
     #products section.container div.content {
-        width: 44%;
+        width: 46%;
     }
     #products section.container div.content div.top {
-        margin-bottom: 40px;
-        width: 98%;
+        margin-bottom: 48px;
     }
     #products section.container div.content div.bottom h1 {
-        width: 116%;
-        font-size: 38px;
-        margin-bottom: 11px;
+        width: 94%;
     }
     #products section.container div.content div.bottom p.para1 {
-        font-size: 14px;
-        margin-bottom: 12px;
+        margin-bottom: 13px;
     }
     #products section.container div.content div.bottom p.para2 {
         font-size: 14px;
-        margin-bottom: 10px;
+        margin-bottom: 16px;
     }
     #products section.container div.content div.bottom.middle h1 {
-        font-size: 40px;
-        width: 76%;
-    }
-    #products section.container div.content.last div.top {
-        margin-bottom: 81px;
-    }
-    #products section.container div.content.last div.bottom h1 {
-        width: 96%;
-        font-size: 39px;
+        font-size: 44px;
+        width: 59%;
     }
     #products section.container div.content.last div.bottom {
-        padding-left: 20px;
-        display: inline;
+        padding-left: 35px;
     }
-    #blog {
-        padding: 70px;
+
+    #products section.container div.content.last div.bottom h1 {
+        width: 100%;
+        font-size: 40px;
     }
     #blog div.top h1 {
-        font-size: 42px;
+        font-size: 40px;
     }
-    #blog section.container div.bottom ul li div.blog_container {
-        width: 100%;
-        height: 170px;
+    #blog section.container div.bottom ul li {
+        width: 31%;
+    }
+    #blog section.container div.bottom ul li h3 {
+        font-size: 20px;
     }
     #blog section.container div.bottom ul li p {
-        width: 100%;
-        font-size: 14px;
+        font-size: 13px;
+    }
+    #blog section.container div.bottom ul li div.blog_container {
+        height: 180px;
     }
     footer div.image {
         width: 24%;
-        height: 277px;
+        height: 265px;
     }
 }
-@media all and (max-width: 768px) {
-    #spotlight {
-        padding-top: 0;
-        padding-bottom: 60px;
+@media all and (max-width: 1080px) {
+    #spotlight section.container div.right {
+        padding-top: 50px;
     }
-    #spotlight section.container div.left {
-        width: 68%;
+    #spotlight section.container div.right h2 {
+        font-size: 72px;
+    }
+    #companies ul li a span.images_container {
+        width: 93px;
+        height: 46px;
+    }
+    #about div.left {
+        padding: 18px 0 28px 60px;
+    }
+    #about div.right {
+        width: 40%;
+    }
+    #products section.container div.image_container {
+        width: 50%;
+    }
+    #products section.container div.content div.top {
+        margin-bottom: 40px;
+    }
+    #products section.container div.content div.bottom h1 {
+        width: 94%;
+        font-size: 38px;
+        margin-bottom: 14px;
+    }
+    #products section.container div.content div.bottom.middle h1 {
+        font-size: 38px;
+    }
+    #products section.container div.content.last div.bottom {
+        padding-left: 14px;
+    }
+    #products section.container div.content.last div.bottom h1 {
+        font-size: 38px;
+    }
+    #blog section.container div.bottom ul li div.blog_container {
+        height: 172px;
+    }
+}
+@media all and (max-width: 980px) {
+    header h1.left {
+        width: 15%;
     }
     #spotlight section.container div.left div.image_container {
         width: 100%;
     }
     #spotlight section.container div.right {
-        margin-top: 49px;
-        width: 86%;
+        padding-top: 100px;
+        width: 61%;
     }
     #spotlight section.container div.right small {
         font-size: 12px;
     }
     #spotlight section.container div.right h2 {
-        font-size: 62px;
-        width: 67%;
-    }
-    #spotlight section.container div.right p {
-        width: 78%;
-        font-size: 14px;
-        margin-bottom: 28px;
+        font-size: 60px;
+        margin-bottom: 14px;
     }
     #spotlight section.container div.right div.spotlight_button a.button_one {
         padding: 12px 24px;
-        font-size: 14px;
+        margin-right: 12px;
     }
     #spotlight section.container div.right div.spotlight_button a.button_two {
-        padding: 12px 14px;
-        font-size: 14px;
-    }
-    #companies ul {
-        flex-wrap: wrap;
+        border-radius: 5px;
+        padding: 12px 18px;
     }
     #companies ul li {
-        width: 27%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 14px;
-        margin-bottom: 12px;
+        margin-right: 55px;
     }
     #companies ul li a span.images_container {
-        width: 148px;
-        height: 42px;
+        width: 71px;
+        height: 46px;
     }
     #about div.left {
-        width: 100%;
-        padding: 24px 30px 24px 30px;
+        width: 50%;
+        padding: 14px 0 16px 24px;
     }
+    #about div.left h2 {
+        margin-bottom: 14px;
+        font-size: 40px;
+    }
+    #about div.left p.paragraph_one {
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    #about div.left p.paragraph_two {
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
+
     #about div.right {
-        display: none;
+        width: 52%;
     }
     #products section.container {
         flex-wrap: wrap;
-        flex-direction: column-reverse;
     }
     #products section.container div.image_container {
-        width: 65%;
+        width: 60%;
         margin: 0 auto;
-    }
-    #products section.container div.image_container img.three {
-        display: none;
+        margin-bottom: 70px;
     }
     #products section.container div.content {
         width: 100%;
     }
-    #products section.container div.content div.top img {
-        display: none;
+    #products section.container div.content div.top {
+        width: 80%;
     }
-    #products section.container div.content.last {
-        text-align: center;
+    #products section.container div.content div.bottom h1 {
+        width: 73%;
+        font-size: 40px;
     }
-    #products section.container div.content.last div.top img {
-        display: none;
+    #products section.container div.content div.top {
+        width: 80%;
+    }
+    #products section.container div.content.last div.top {
+        margin-bottom: 100px;
+    }
+    #products section.container div.content.last div.bottom form {
+        margin-left: 80px;
     }
     #products section.container div.content.last div.bottom h1 {
-        margin-bottom: 30px;
+        margin-bottom: 26px;
     }
     #blog div.top h1 {
         font-size: 38px;
+    }
+    #blog section.container div.bottom ul li div.blog_container {
+        height: 142px;
+    }
+    #blog section.container div.bottom ul li h3 {
+        font-size: 18px;
+    }
+    #blog section.container div.bottom ul li p {
+        font-size: 12.5px;
+    }
+    footer div.image {
+        width: 24%;
+        height: 224px;
+    }
+}
+@media all and (max-width: 768px) {
+    header {
+        padding: 30px 60px 30px 60px;
+    }
+    header h1.left {
+        width: 16%;
+    }
+    header nav.middle ul li {
+        margin-right: 16px;
+    }
+    header nav.middle ul li a {
+        font-size: 13px;
+    }
+    #spotlight {
+        padding: 0 0 80px;
+    }
+    #spotlight section.container div.right small {
+        font-size: 11px;
+    }
+    #spotlight section.container div.right p {
+        font-size: 13px;
+        margin-bottom: 28px;
+    }
+    #companies ul {
+        flex-wrap: wrap;
+    }
+    #companies ul li a span.images_container {
+        width: 100px;
+    }
+    #about {
+        padding: 40px 60px;
+    }
+    #about section.wrapper {
+        display: block;
+        background: none;
+    }
+    #about div.left {
+        width: 100%;
+        padding: 60px 30px;
+    }
+    #about div.right img {
+        height: 100%;
+    }
+    #about div.right {
+        width: 70%;
+        height: 230px;
+        margin: 0 auto;
+    }
+    #products section.container div.image_container {
+        width: 70%;
+    }
+    #products section.container div.content.last div.bottom {
+        text-align: center;
+    }
+    #products section.container div.content div.bottom h1 {
+        width: 76%;
+    }
+    #products section.container div.content.last div.bottom form {
+        margin-left: 0;
     }
     #blog section.container div.bottom ul {
         flex-wrap: wrap;
@@ -845,30 +936,159 @@ footer div.image img {
     #blog section.container div.bottom ul li {
         width: 100%;
     }
-    #blog section.container div.bottom ul li div.blog_container {
-        height: 310px;
-        margin: 0 auto;
-        width: 450px;
-        margin-bottom: 30px;
-    }
     #blog section.container div.bottom ul li h3 {
-        font-size: 22px;
+        font-size: 24px;
     }
     #blog section.container div.bottom ul li p {
-        width: 78%;
-        margin: 0 auto;
+        font-size: 15px;
+        margin-bottom: 48px;
+    }
+    #blog section.container div.bottom ul li div.blog_container {
+        height: 245px;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+    footer section.container {
+        flex-wrap: wrap;
+    }
+    footer section.container div.left {
+        width: 100%;
+    }
+    footer section.container div.right {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 24px;
+    }
+    footer div.image {
+        width: 25%;
+        margin: 27px auto 0;
+        height: 224px;
+    }
+    footer section.container div.right div.item ul li a {
+        font-size: 14px;
+    }
+    footer section.container div.left div.top ul li a {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 640px) {
+    header h1.left {
+        width: 28%;
+    }
+    header nav.middle ul {
+        display: none;
+    }
+    #spotlight {
+        padding: 0 71px 72px;
+    }
+    #spotlight section.container div.left {
+        display: none;
+    }
+    #spotlight section.container div.right small {
+        font-size: 12px;
+    }
+    #spotlight section.container div.right {
+        width: 100%;
+    }
+    #spotlight section.container div.right h2 {
+        font-size: 67px;
+        width: 82%;
+    }
+    #spotlight section.container div.right p {
+        font-size: 15px;
+        width: 100%;
+    }
+    #spotlight section.container div.right div.spotlight_button a.button_one {
+        font-size: 13px;
+    }
+    #spotlight section.container div.right div.spotlight_button a.button_two {
+        font-size: 13px;
+    }
+    #companies {
+        padding: 40px 60px;
+        background: #dedddc;
+    }
+    #companies ul li {
+        margin-right: 31px;
+        margin-bottom: 20px;
+    }
+    #companies ul li a span.images_container {
+        width: 130px;
+    }
+    #about {
+        padding: 40px 22px;
+    }
+    #about div.left {
+        width: 100%;
         margin-bottom: 50px;
     }
-    #blog section.container div.bottom ul li p {
-        margin-bottom: 50px;
+    #about div.left p.paragraph_one {
+        font-size: 15px;
+    }
+    #about div.left p.paragraph_two {
+        margin-bottom: 12px;
+        font-size: 15px;
+    }
+    #about div.left div.about_button a.button {
+        font-size: 15px;
+    }
+    #about div.right {
+        width: 70%;
+        height: 230px;
+    }
+    #products section.container div.image_container {
+        width: 94%;
+    }
+    #products section.container div.content div.top {
+        width: 94%;
+    }
+    #products section.container div.content div.bottom h1 {
+        width: 100%;
+        font-size: 36px;
+    }
+    #products section.container div.content div.bottom p.para1 {
+        font-size: 15px;
+    }
+    #products section.container div.content div.bottom p.para2 {
+        font-size: 15px;
+    }
+    #products section.container div.content div.button_box a.button {
+        font-size: 15px;
+    }
+    #products section.container div.content div.button_box {
+        margin-bottom: 36px;
+    }
+    #products
+        section.container
+        div.content.last
+        div.bottom
+        form
+        input[type="email"] {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    #products
+        section.container
+        div.content.last
+        div.bottom
+        form
+        input[type="email"] {
+        font-size: 14px;
+    }
+    #blog section.container div.bottom ul li div.blog_container {
+        height: 200px;
+    }
+    footer {
+        padding: 0;
     }
     footer div.image {
         display: none;
     }
-    footer section.container div.left {
-        width: 30%;
-    }
-    footer section.container div.right {
-        width: 62%;
-    }
+}
+@media all and (max-width: 480px) {
+}
+@media all and (max-width: 360px) {
 }

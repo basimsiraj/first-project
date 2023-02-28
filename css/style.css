@@ -1189,7 +1189,13 @@ footer div.image img {
     #blog div.top h1 {
         font-size: 29px;
     }
+    #blog section.container div.bottom ul li h3 {
+        font-size: 20px;
+    }
     #blog section.container div.bottom ul li div.blog_container {
         height: 170px;
+    }
+    footer section.container div.right div.item ul li a {
+        font-size: 11px;
     }
 }
